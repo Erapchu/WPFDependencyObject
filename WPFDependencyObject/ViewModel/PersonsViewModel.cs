@@ -13,7 +13,6 @@ namespace WPFDependencyObject.ViewModel
     class PersonsViewModel : DependencyObject
     {
 
-
         public string FilterText
         {
             get { return (string)GetValue(FilterTextProperty); }
